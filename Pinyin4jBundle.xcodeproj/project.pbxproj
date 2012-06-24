@@ -10,7 +10,7 @@
 		DC0F2E8F15933CEF00F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
 		DC0F2E9115933CF400F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
 		DC0F2E9315933CFC00F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
-		DC0F2E9515933D2200F9D4FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E9415933D2200F9D4FA /* Localizable.strings */; };
+		DC56B1251596C4AF002F1460 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC56B1241596C4AF002F1460 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		DC0F2E8E15933CEF00F9D4FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = internationalization/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC0F2E9015933CF400F9D4FA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "internationalization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		DC0F2E9215933CFC00F9D4FA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "internationalization/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DC0F2E9415933D2200F9D4FA /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DC56B1241596C4AF002F1460 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = internationalization/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 				DC0F2E8015933C0000F9D4FA /* Pinyin4jBundle-Info.plist */,
 				DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */,
 				DC0F2E8415933C0000F9D4FA /* Pinyin4jBundle-Prefix.pch */,
-				DC0F2E9415933D2200F9D4FA /* Localizable.strings */,
+				DC56B1241596C4AF002F1460 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 				DC0F2E8F15933CEF00F9D4FA /* InfoPlist.strings in Resources */,
 				DC0F2E9115933CF400F9D4FA /* InfoPlist.strings in Resources */,
 				DC0F2E9315933CFC00F9D4FA /* InfoPlist.strings in Resources */,
-				DC0F2E9515933D2200F9D4FA /* Localizable.strings in Resources */,
+				DC56B1251596C4AF002F1460 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +264,7 @@
 				DC0F2E8715933C0000F9D4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
