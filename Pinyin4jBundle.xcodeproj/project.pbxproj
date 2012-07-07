@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC0F2E8F15933CEF00F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
-		DC0F2E9115933CF400F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
-		DC0F2E9315933CFC00F9D4FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0F2E8D15933CEF00F9D4FA /* InfoPlist.strings */; };
 		DC56B1251596C4AF002F1460 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC56B1241596C4AF002F1460 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -131,8 +129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0F2E8F15933CEF00F9D4FA /* InfoPlist.strings in Resources */,
-				DC0F2E9115933CF400F9D4FA /* InfoPlist.strings in Resources */,
-				DC0F2E9315933CFC00F9D4FA /* InfoPlist.strings in Resources */,
 				DC56B1251596C4AF002F1460 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
