@@ -67,10 +67,10 @@
 		DC0F2E7F15933C0000F9D4FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC0F2E8415933C0000F9D4FA /* Pinyin4jBundle-Prefix.pch */,
-				DC0F2E8015933C0000F9D4FA /* Pinyin4jBundle-Info.plist */,
-				DC630147174CA72300C132C2 /* Localizable.strings */,
 				DC630142174CA70700C132C2 /* InfoPlist.strings */,
+				DC630147174CA72300C132C2 /* Localizable.strings */,
+				DC0F2E8015933C0000F9D4FA /* Pinyin4jBundle-Info.plist */,
+				DC0F2E8415933C0000F9D4FA /* Pinyin4jBundle-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
