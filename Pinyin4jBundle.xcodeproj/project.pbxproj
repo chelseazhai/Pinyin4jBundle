@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC630144174CA70700C132C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC630142174CA70700C132C2 /* InfoPlist.strings */; };
-		DC80B05D1773F8AD009BA163 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC80B05C1773F8AD009BA163 /* Localizable.strings */; };
+		DCE518EE177BCE98000CA65D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE518ED177BCE98000CA65D /* Localizable.strings */; };
+		DCE518F1177BCEAC000CA65D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE518EF177BCEAC000CA65D /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC0F2E7B15933C0000F9D4FA /* Pinyin4jBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pinyin4jBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0F2E8015933C0000F9D4FA /* Pinyin4jBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pinyin4jBundle-Info.plist"; sourceTree = "<group>"; };
 		DC0F2E8415933C0000F9D4FA /* Pinyin4jBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinyin4jBundle-Prefix.pch"; sourceTree = "<group>"; };
-		DC630143174CA70700C132C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/Internationalization/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC630145174CA71200C132C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Internationalization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DC630146174CA71B00C132C2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Resources/Internationalization/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DC80B05C1773F8AD009BA163 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Internationalization/Localizable.strings; sourceTree = "<group>"; };
+		DCE518ED177BCE98000CA65D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Strings/Localizable.strings; sourceTree = "<group>"; };
+		DCE518F0177BCEAC000CA65D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/Strings/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCE518F2177BCEB4000CA65D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Strings/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DCE518F3177BCEBD000CA65D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Resources/Strings/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		DC0F2E7F15933C0000F9D4FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC630142174CA70700C132C2 /* InfoPlist.strings */,
+				DCE518EF177BCEAC000CA65D /* InfoPlist.strings */,
 				DC0F2E8015933C0000F9D4FA /* Pinyin4jBundle-Info.plist */,
 				DC0F2E8415933C0000F9D4FA /* Pinyin4jBundle-Prefix.pch */,
 			);
@@ -78,17 +78,17 @@
 		DC80B05A1773F86A009BA163 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DC80B05B1773F88C009BA163 /* Internationalization */,
+				DC80B05B1773F88C009BA163 /* Strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		DC80B05B1773F88C009BA163 /* Internationalization */ = {
+		DC80B05B1773F88C009BA163 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				DC80B05C1773F8AD009BA163 /* Localizable.strings */,
+				DCE518ED177BCE98000CA65D /* Localizable.strings */,
 			);
-			name = Internationalization;
+			name = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC630144174CA70700C132C2 /* InfoPlist.strings in Resources */,
-				DC80B05D1773F8AD009BA163 /* Localizable.strings in Resources */,
+				DCE518EE177BCE98000CA65D /* Localizable.strings in Resources */,
+				DCE518F1177BCEAC000CA65D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,12 +162,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC630142174CA70700C132C2 /* InfoPlist.strings */ = {
+		DCE518EF177BCEAC000CA65D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC630143174CA70700C132C2 /* en */,
-				DC630145174CA71200C132C2 /* zh-Hans */,
-				DC630146174CA71B00C132C2 /* zh-Hant */,
+				DCE518F0177BCEAC000CA65D /* en */,
+				DCE518F2177BCEB4000CA65D /* zh-Hans */,
+				DCE518F3177BCEBD000CA65D /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
